@@ -1,6 +1,8 @@
 *{
     font-family:Roboto,sans-serif;
     font-size:18px;
+    margin:0;
+    padding:0;
 }
 
 /* Header styling */
@@ -180,4 +182,17 @@ button{
     border-style:solid;
     border-color:white;
     border-width:2px;
+}
+
+/* Footer styling */
+.footer{
+    background-color:#1F2937;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-text{
+    color:white;
+    padding:32px;
 }
