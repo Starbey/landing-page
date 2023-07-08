@@ -130,3 +130,26 @@ button{
 .subtext {
     color:#1F2937;
 }
+
+/* Quote styling */
+.quote {
+    background-color:#E5E7EB;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:200px 300px;
+}
+
+.quote-main{
+    color:#1F2937;
+    font-style:italic;
+    font-size:36px;
+    font-weight:100;
+}
+
+.quote-person, i{
+    color:#1F2937;
+    text-align:right;
+    font-weight:bold;
+    font-size:30px;
+}
