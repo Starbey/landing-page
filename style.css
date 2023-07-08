@@ -153,3 +153,18 @@ button{
     font-weight:bold;
     font-size:30px;
 }
+
+/* Sign up styling */
+.sign-up{
+    background-color:greenyellow;
+    display:flex;
+    justify-content:space-between;
+    margin:128px;
+    border-radius:16px;
+}
+
+.sign-up button{
+    border-style:solid;
+    border-color:white;
+    border-width:4px;
+}
