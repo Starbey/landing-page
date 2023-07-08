@@ -95,6 +95,13 @@ button{
     display:flex;
     flex-direction:column;
     align-items:center;
+    padding:32px;
+}
+
+.info-header{
+    font-size:36px;
+    font-weight:bolder;
+    color:#1F2937;
 }
 
 .pairs-container{
@@ -102,6 +109,7 @@ button{
     justify-content:space-between;
     gap:32px;
     flex-shrink:0;
+    padding:32px;
 }
 
 .pair{
@@ -113,7 +121,12 @@ button{
     height:200px;
     width:200px;
     border:solid;
-    border-width:2px;
+    border-width:4px;
     border-color:#3882F6;
     border-radius:16px;
+    margin-bottom:16px;
+}
+
+.subtext {
+    color:#1F2937;
 }
