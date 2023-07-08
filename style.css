@@ -106,10 +106,10 @@ button{
 
 .pairs-container{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     gap:32px;
-    flex-shrink:0;
     padding:32px;
+    flex-wrap:wrap;
 }
 
 .pair{
