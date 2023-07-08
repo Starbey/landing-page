@@ -77,6 +77,7 @@ button{
     font-weight:bold;
     margin-top:8px;
     display:flex;
+    align-items:center;
 }
 
 .image{
@@ -156,15 +157,27 @@ button{
 
 /* Sign up styling */
 .sign-up{
-    background-color:greenyellow;
+    background-color:#3882F6;
     display:flex;
     justify-content:space-between;
     margin:128px;
     border-radius:16px;
+    padding:64px;
+}
+
+.sign-up-header{
+    font-size:24px;
+    font-weight:bold;
+    color:white;
+}
+
+.sign-up-subtext{
+    font-size:18px;
+    color:white;
 }
 
 .sign-up button{
     border-style:solid;
     border-color:white;
-    border-width:4px;
+    border-width:2px;
 }
